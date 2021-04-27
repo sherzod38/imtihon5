@@ -80,9 +80,9 @@ const HomePages = () => {
 
       <div className="home-last container">
         <div className="home-last-top">
-          <Link to="#">Просмотренные</Link>
-          <Link to="#">Выбор редакции</Link>
-          <Link to="#">Сниженные цены</Link>
+          <Link className="home-last-top-link" to="#">Просмотренные</Link>
+          <Link className="home-last-top-link" to="#">Выбор редакции</Link>
+          <Link className="home-last-top-link" to="#">Сниженные цены</Link>
         </div>
         <div className="home-last-midl">
           <LastComponent />
