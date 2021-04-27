@@ -22,7 +22,7 @@ import scrolImg3 from "../../assets/images/Gro3.png";
 import scrolImg4 from "../../assets/images/Gro3.png";
 
 import "./HomePages.scss";
-
+// commit
 const HomePages = () => {
   return (
     <div className="home">
