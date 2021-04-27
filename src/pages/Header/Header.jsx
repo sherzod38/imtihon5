@@ -10,16 +10,16 @@ const Header = () => {
       <div className="header container">
         <div className="header-top ">
           <div className="header-top-left">
-            <a href="#">
+            <Link to="#">
               <img src={Logo} alt="" />
-            </a>
+            </Link>
             <p>Продай, найди, купи все что пожелаешь…</p>
           </div>
           <div className="header-top-midl">
-            <a href="#">Объявления</a>
-            <a href="#">Магазины</a>
-            <a href="#">Для бизнеса</a>
-            <a href="#">Помощь</a>
+            <Link to="#">Объявления</Link>
+            <Link to="#">Магазины</Link>
+            <Link to="#">Для бизнеса</Link>
+            <Link to="#">Помощь</Link>
           </div>
           <div className="header-top-right">
             <p className="header-top-right-text1">

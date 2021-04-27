@@ -1,5 +1,10 @@
+import {BrowserRouter as Router} from 'react-router-dom'
+
+import { Link } from 'react-router-dom'
+
+
 import HomeComponent from "../../components/HomeComponent/HomeComponent";
-import LastComponent from '../../components/LastComponent/LastComponent'
+import LastComponent from "../../components/LastComponent/LastComponent";
 
 import ImgLink1 from "../../assets/images/icons/Group1.svg";
 import ImgLink2 from "../../assets/images/icons/Group2.svg";
@@ -21,41 +26,40 @@ import "./HomePages.scss";
 const HomePages = () => {
   return (
     <div className="home">
+   
       <div className="home-inner  container">
         <div className="home-inner-top">
-          <a href="#">
+          <Link to="#">
             <img src={ImgLink1} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink2} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink3} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink4} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink5} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link href="#">
             <img src={ImgLink6} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink7} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink8} alt="" />
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="#">
             <img src={ImgLink9} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="home-inner-midl">
           <div className="home-inner-midl-top">
-            <p>
-              Новые объявления
-            </p>
+            <p>Новые объявления</p>
             <span>Лучщие предложение</span>
           </div>
           <div className="home-inner-midl-text">
@@ -76,17 +80,18 @@ const HomePages = () => {
 
       <div className="home-last container">
         <div className="home-last-top">
-          <a href="#">Просмотренные</a>
-          <a href="#">Выбор редакции</a>
-          <a href="#">Сниженные цены</a>
+          <Link to="#">Просмотренные</Link>
+          <Link to="#">Выбор редакции</Link>
+          <Link to="#">Сниженные цены</Link>
         </div>
         <div className="home-last-midl">
-          <LastComponent/>
+          <LastComponent />
         </div>
         <div className="home-last-bottom">
-            <h5>Покозать еще</h5>
+          <h5>Покозать еще</h5>
         </div>
       </div>
+      
     </div>
   );
 };

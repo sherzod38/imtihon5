@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   ArrayIcons1,
   ArrayIcons2,
@@ -20,28 +21,28 @@ const FooterBottom = () => {
               <span>Автомобили</span>
             </h3>
 
-            <a href="#">Легковые авто</a>
-            <a href="#">Мото</a>
-            <a href="#">Автобусы</a>
-            <a href="#">Грузовые авто</a>
-            <a href="#">Сельхозтехника</a>
-            <a href="#">Запчасти и Аксессуары</a>
-            <a href="#">Прицепы и Спецтехника</a>
-            <a href="#">Водный и Другой транспортa</a>
+            <Link to="#">Легковые авто</Link>
+            <Link to="#">Мото</Link>
+            <Link to="#">Автобусы</Link>
+            <Link to="#">Грузовые авто</Link>
+            <Link to="#">Сельхозтехника</Link>
+            <Link to="#">Запчасти и Аксессуары</Link>
+            <Link to="#">Прицепы и Спецтехника</Link>
+            <Link to="#">Водный и Другой транспортa</Link>
 
             <h3>
               <ArrayIcons3 />
               <span>Дом и Сад</span>
             </h3>
 
-            <a href="#">Товары для интерьера</a>
-            <a href="#">Товары для сада</a>
-            <a href="#">Растения</a>
-            <a href="#">Продукты питания</a>
-            <a href="#">Посуда и Кухонная утварь</a>
-            <a href="#"> Хоз.инвентарь и Бытовая химия</a>
-            <a href="#">Канцтовары и Расходные</a>
-            <a href="#">Прочие товары для дома</a>
+            <Link to="#">Товары для интерьера</Link>
+            <Link to="#">Товары для сада</Link>
+            <Link to="#">Растения</Link>
+            <Link to="#">Продукты питания</Link>
+            <Link to="#">Посуда и Кухонная утварь</Link>
+            <Link to="#"> Хоз.инвентарь и Бытовая химия</Link>
+            <Link to="#">Канцтовары и Расходные</Link>
+            <Link to="#">Прочие товары для дома</Link>
           </div>
           <div className="footerbottom-inner-block">
             <h3>
@@ -49,28 +50,28 @@ const FooterBottom = () => {
               <span>Недвижимость</span>
             </h3>
 
-            <a href="#">Аренда квартир</a>
-            <a href="#">Аренда домов</a>
-            <a href="#">Аренда гаражей и Стоянок</a>
-            <a href="#">Продажа квартир</a>
-            <a href="#">Продажа домов</a>
-            <a href="#">Продажа земли</a>
-            <a href="#">Продажа гаражей/Стоянок</a>
-            <a href="#">Аренда помещений</a>
-            <a href="#">Продажа помещений</a>
-            <a href="#">Прочая недвижимость</a>
-            <a href="#">Обмен недвижимости</a>
-            <a href="#">Коммерческая недвижимость</a>
+            <Link to="#">Аренда квартир</Link>
+            <Link to="#">Аренда домов</Link>
+            <Link to="#">Аренда гаражей и Стоянок</Link>
+            <Link to="#">Продажа квартир</Link>
+            <Link to="#">Продажа домов</Link>
+            <Link to="#">Продажа земли</Link>
+            <Link to="#">Продажа гаражей/Стоянок</Link>
+            <Link to="#">Аренда помещений</Link>
+            <Link to="#">Продажа помещений</Link>
+            <Link to="#">Прочая недвижимость</Link>
+            <Link to="#">Обмен недвижимости</Link>
+            <Link to="#">Коммерческая недвижимость</Link>
 
             <h3>
               <ArrayIcons5 />
               <span>Товары стройки и ремонта</span>
             </h3>
 
-            <a href="#">Двери и окна</a>
-            <a href="#">Сантехника</a>
-            <a href="#">Стройматериалы</a>
-            <a href="#">Инструменты</a>
+            <Link to="#">Двери и окна</Link>
+            <Link to="#">Сантехника</Link>
+            <Link to="#">Стройматериалы</Link>
+            <Link to="#">Инструменты</Link>
           </div>
           <div className="footerbottom-inner-block">
             <h3>
@@ -78,31 +79,31 @@ const FooterBottom = () => {
               <span>Электроника</span>
             </h3>
 
-            <a href="#">Телефоны</a>
-            <a href="#">Компьютеры</a>
-            <a href="#">Ноутбуки, планшеты</a>
-            <a href="#">Оргтехника и расходники</a>
-            <a href="#">ТВ,Фото,Видео и Аудио</a>
-            <a href="#">Игры и Приставки</a>
-            <a href="#">Техника для дома и Для себя</a>
-            <a href="#">Климатическое оборудование</a>
-            <a href="#">Аксессуары и Комплектующие</a>
-            <a href="#">Техника для наблюдения</a>
-            <a href="#"> Прочая электроника</a>
+            <Link to="#">Телефоны</Link>
+            <Link to="#">Компьютеры</Link>
+            <Link to="#">Ноутбуки, планшеты</Link>
+            <Link to="#">Оргтехника и расходники</Link>
+            <Link to="#">ТВ,Фото,Видео и Аудио</Link>
+            <Link to="#">Игры и Приставки</Link>
+            <Link to="#">Техника для дома и Для себя</Link>
+            <Link to="#">Климатическое оборудование</Link>
+            <Link to="#">Аксессуары и Комплектующие</Link>
+            <Link to="#">Техника для наблюдения</Link>
+            <Link to="#"> Прочая электроника</Link>
 
             <h3>
               <ArrayIcons3 />
               <span>Хобби, Отдых и Спорт</span>
             </h3>
 
-            <a href="#">Антиквариат и Коллекции</a>
-            <a href="#">Музыкальные инструменты</a>
-            <a href="#">Велосипеды</a>
-            <a href="#">Товары для спорта и отдыха</a>
-            <a href="#">Книги/Журналы</a>
-            <a href="#">CD/DVD/Пластинки/Кассеты</a>
-            <a href="#">Билеты и путешествия</a>
-            <a href="#">Охота и рыбалка</a>
+            <Link to="#">Антиквариат и Коллекции</Link>
+            <Link to="#">Музыкальные инструменты</Link>
+            <Link to="#">Велосипеды</Link>
+            <Link to="#">Товары для спорта и отдыха</Link>
+            <Link to="#">Книги/Журналы</Link>
+            <Link to="#">CD/DVD/Пластинки/Кассеты</Link>
+            <Link to="#">Билеты и путешествия</Link>
+            <Link to="#">Охота и рыбалка</Link>
           </div>
           <div className="footerbottom-inner-block">
             <h3>
@@ -110,28 +111,28 @@ const FooterBottom = () => {
               <span>Личные вещи</span>
             </h3>
 
-            <a href="#">Одежда, обувь, аксессуары</a>
-            <a href="#">Детская одежда и обувь</a>
-            <a href="#">Детские товары и Игрушки</a>
-            <a href="#">Школьникам</a>
-            <a href="#">Часы и украшения</a>
-            <a href="#">Товары для красоты и здоровья</a>
-            <a href="#">Разные вещи</a>
+            <Link to="#">Одежда, обувь, аксессуары</Link>
+            <Link to="#">Детская одежда и обувь</Link>
+            <Link to="#">Детские товары и Игрушки</Link>
+            <Link to="#">Школьникам</Link>
+            <Link to="#">Часы и украшения</Link>
+            <Link to="#">Товары для красоты и здоровья</Link>
+            <Link to="#">Разные вещи</Link>
 
             <h3>
               <ArrayIcons4 /> <span>Бизнес и услуги</span>
             </h3>
 
-            <a href="#">Оборудование и аренда</a>
-            <a href="#">Производство и обработка</a>
-            <a href="#">Продажа бизнеса и партнерство</a>
-            <a href="#"> Финансовые услуги/Бухгалтерия</a>
-            <a href="#">Услуги для красоты и здоровья</a>
-            <a href="#">Услуги курьера и доставки</a>
-            <a href="#">Реклама, Полиграфия и Маркетинг</a>
-            <a href="#">Няни, Сиделки и Домработницы</a>
-            <a href="#">Обучение, курсы и репетиторы</a>
-            <a href="#">Фото, видео, искусство и дизайн</a>
+            <Link to="#">Оборудование и аренда</Link>
+            <Link to="#">Производство и обработка</Link>
+            <Link to="#">Продажа бизнеса и партнерство</Link>
+            <Link to="#"> Финансовые услуги/Бухгалтерия</Link>
+            <Link to="#">Услуги для красоты и здоровья</Link>
+            <Link to="#">Услуги курьера и доставки</Link>
+            <Link to="#">Реклама, Полиграфия и Маркетинг</Link>
+            <Link to="#">Няни, Сиделки и Домработницы</Link>
+            <Link to="#">Обучение, курсы и репетиторы</Link>
+            <Link to="#">Фото, видео, искусство и дизайн</Link>
           </div>
         </div>
         <h4 className="footerbottom-text">
@@ -140,13 +141,13 @@ const FooterBottom = () => {
         <div className="footerbottom-last">
                                                                                                                  
 
-            <a href="#" className="footerbottom-last-link1">Подать объявление</a>
-            <a href="#" className="footerbottom-last-link">Объявления</a>
-            <a href="#" className="footerbottom-last-link">Магазины </a>
-            <a href="#" className="footerbottom-last-link">Помощь</a>
-            <a href="#" className="footerbottom-last-link">Безопасность </a>
-            <a href="#" className="footerbottom-last-link">Реклама на сайте </a>
-            <a href="#" className="footerbottom-last-link">О компании</a>
+            <Link to="#" className="footerbottom-last-link1">Подать объявление</Link>
+            <Link to="#" className="footerbottom-last-link">Объявления</Link>
+            <Link to="#" className="footerbottom-last-link">Магазины </Link>
+            <Link to="#" className="footerbottom-last-link">Помощь</Link>
+            <Link to="#" className="footerbottom-last-link">Безопасность </Link>
+            <Link to="#" className="footerbottom-last-link">Реклама на сайте </Link>
+            <Link to="#" className="footerbottom-last-link">О компании</Link>
         </div>
       </div>
 
