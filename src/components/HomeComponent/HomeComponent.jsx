@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import imghome from '../../assets/images/Group.png'
+// import { Link } from 'react-router-dom';
+// import imghome from '../../assets/images/Group.png'
 
 import DataBaza from '../../dataBaza/DataBaza';
 
