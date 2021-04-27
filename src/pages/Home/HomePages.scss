@@ -76,14 +76,15 @@
           line-height: 30px;
           color: #9b9b9b;
           cursor: pointer;
+          position: relative;
           &::before {
             position: absolute;
             content: "";
             width: 0px;
             height: 3px;
             border-bottom: 2px solid #4e72ca;
-            top: 0px;
-            left: 460px;
+            bottom: -1px;
+            left: 60px;
             transition: all ease 0.5s;
           }
           &:hover::before {
