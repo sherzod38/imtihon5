@@ -1,0 +1,35 @@
+.last {
+    display: flex;
+    justify-content: space-between;
+  & img {
+    width: 262px;
+    height: 190px;
+    object-fit: contain;
+  }
+  & p {
+    width: 254px;
+    height: 53px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  & h4 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4a4a4a;
+  }
+  & h5 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+}

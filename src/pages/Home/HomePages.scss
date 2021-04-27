@@ -1,0 +1,205 @@
+.main {
+  background: #ffffff;
+  box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+}
+.home {
+  &-inner {
+    &-top {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 37px;
+      position: relative;
+      margin-bottom: 31px;
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url("../../assets/images/icons/Group15.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 34px;
+        height: 34px;
+        left: -40px;
+        top: 60px;
+        cursor: pointer;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        background-image: url("../../assets/images/icons/Group15.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 34px;
+        height: 34px;
+        right: -30px;
+        top: 60px;
+        cursor: pointer;
+        transform: rotate(180deg);
+      }
+    }
+    &-midl {
+      &-top {
+        border-bottom: 1px solid #d5d5d5;
+        display: flex;
+        & p {
+          padding-bottom: 10px;
+          font-family: Gilroy;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 30px;
+          color: #9b9b9b;
+          position: relative;
+          cursor: pointer;
+          &::before {
+            position: absolute;
+            content: "";
+            width: 0px;
+            height: 3px;
+            border-bottom: 2px solid #4e72ca;
+            bottom: -1px;
+            left: 40px;
+            transition: all ease 0.5s;
+          }
+          &:hover::before {
+            width: 128px;
+          }
+          &:hover {
+            color: #4e72ca;
+          }
+        }
+        & span {
+          margin-left: 77px;
+          font-family: Gilroy;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 30px;
+          color: #9b9b9b;
+          cursor: pointer;
+          &::before {
+            position: absolute;
+            content: "";
+            width: 0px;
+            height: 3px;
+            border-bottom: 2px solid #4e72ca;
+            bottom: -62px;
+            left: 460px;
+            transition: all ease 0.5s;
+          }
+          &:hover::before {
+            width: 128px;
+          }
+          &:hover {
+            color: #4e72ca;
+          }
+        }
+      }
+
+      &-text {
+        & h6 {
+          border-top: 1px solid rgba(182, 202, 251, 0.606827);
+          width: 100%;
+          padding-top: 18px;
+          text-align: center;
+          font-family: Gilroy;
+          font-size: 15px;
+          line-height: 18px;
+          color: #4e72ca;
+          margin-bottom: 20px;
+          position: relative;
+          cursor: pointer;
+          &::after {
+            position: absolute;
+            content: "";
+            background-image: url("../../assets/images/icons/Fill1.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 5.5px;
+            height: 10px;
+            right: 520px;
+            top: 27px;
+          }
+        }
+      }
+    }
+  }
+  &-scrol {
+    padding: 50px 0 42px 0;
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+    margin-bottom: 26px;
+    &-inner {
+      display: flex;
+      overflow-x: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      & img {
+        width: 359px;
+        height: 238px;
+        object-fit: contain;
+        margin-right: 29px;
+      }
+    }
+  }
+  &-last {
+    &-top {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #d5d5d5;
+      margin-bottom: 22px;
+      & a {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: #9b9b9b;
+        margin-right: 100px;
+        position: relative;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 0px;
+          height: 3px;
+          border-bottom: 2px solid #4e72ca;
+          bottom: -13px;
+          left: 40px;
+          transition: all ease 0.5s;
+        }
+        &:hover::before {
+          width: 128px;
+        }
+        &:hover {
+          color: #4e72ca;
+        }
+      }
+    }
+    &-midl {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #d5d5d5;
+      margin-bottom: 18px;
+    }
+    &-bottom {
+      & h5 {
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 15px;
+        line-height: 18px;
+        color: #4e72ca;
+        position: relative;
+        margin-bottom: 23px;
+        &::after {
+          position: absolute;
+          content: '';
+          background-image: url('../../assets/images/icons/Fill1.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 7px;
+          height: 11px;
+          right: 520px;
+          top: 8px;
+        }
+      }
+    }
+  }
+}

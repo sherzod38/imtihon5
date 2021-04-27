@@ -1,0 +1,47 @@
+.footertop {
+  background: #282b30;
+  
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+      display: flex;
+      align-items: center;
+      & img {
+        margin-right: 14px;
+        padding: 22px 0;
+        cursor: pointer;
+      }
+      & p {
+        width: 149px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+      }
+    }
+    &-midl {
+      & h4 {
+        width: 307px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #98a4b7;
+      }
+    }
+    &-right {
+      & img {
+        margin-left: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
