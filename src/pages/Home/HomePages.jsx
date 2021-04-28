@@ -24,7 +24,7 @@ import "./HomePages.scss";
 import Modal1 from "../../components/modal1/Modal1";
 // commit
 const HomePages = () => {
-  const [category, setCategory] = useState();
+  const [ setCategory] = useState();
   const [isVisible, setIsVisible] = useState(false);
 
   const open = (cat) => {
