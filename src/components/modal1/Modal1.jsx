@@ -7,7 +7,7 @@ import Modal2 from "../../components/modal2/Modal2";
 
 import "./Modal1.scss";
 
-const Modal1 = ({ visible, close }) => {
+const Modal1 = ({ visible, category, close }) => {
   const [type, setType] = useState();
   const [isVisible, setIsVisible] = useState(false);
 

@@ -24,7 +24,7 @@ import "./HomePages.scss";
 import Modal1 from "../../components/modal1/Modal1";
 // commit
 const HomePages = () => {
-  const [ setCategory] = useState();
+  const [category, setCategory] = useState();
   const [isVisible, setIsVisible] = useState(false);
 
   const open = (cat) => {
@@ -65,6 +65,7 @@ const HomePages = () => {
         </div>
         <Modal1
           visible={isVisible}
+          category={category}
           close={() => {
             setCategory("");
             setIsVisible(false);
