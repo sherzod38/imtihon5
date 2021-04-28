@@ -4,7 +4,7 @@ import Databaza2 from '../../dataBaza2/DataBaza2'
 
 import './LastComponent.scss';
 
-const LastComponent = (img, title, data, price) => {
+const LastComponent = (img, title, data, price, key) => {
     return (
         <div className="last">
            {

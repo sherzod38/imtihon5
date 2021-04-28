@@ -1,0 +1,54 @@
+.modal1 {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 15px 1px #504848;
+  height: 227px;
+  position: absolute;
+  top: 315px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  display: none;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/images/Triangle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    // box-shadow: 0 0px 5px 5px #bbbbbb;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    left: 170px;
+    z-index: 2;
+    transform: rotate(45deg);
+  }
+  &-inner {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    &-link {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 39px;
+      letter-spacing: -6.7332e-5px;
+      color: #000000;
+      position: relative;
+      &-aval:hover {
+        fill: #b4e2e1;
+        stroke: #4a90e2;
+      }
+    }
+  }
+}
+
+.open {
+  display: flex;
+}

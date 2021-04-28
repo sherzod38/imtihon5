@@ -1,7 +1,6 @@
 // import {BrowserRouter as Router} from 'react-router-dom'
-
-import { Link } from 'react-router-dom'
-
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import HomeComponent from "../../components/HomeComponent/HomeComponent";
 import LastComponent from "../../components/LastComponent/LastComponent";
@@ -22,17 +21,24 @@ import scrolImg3 from "../../assets/images/Gro3.png";
 import scrolImg4 from "../../assets/images/Gro3.png";
 
 import "./HomePages.scss";
+import Modal1 from "../../components/modal1/Modal1";
 // commit
 const HomePages = () => {
+  const [category, setCategory] = useState();
+  const [isVisible, setIsVisible] = useState(false);
+
+  const open = (cat) => {
+    setCategory(cat);
+    setIsVisible(!isVisible);
+  };
   return (
     <div className="home">
-   
       <div className="home-inner  container">
         <div className="home-inner-top">
           <Link to="#">
             <img src={ImgLink1} alt="" />
           </Link>
-          <Link to="#">
+          <Link to="#" onClick={() => open("electronic")}>
             <img src={ImgLink2} alt="" />
           </Link>
           <Link to="#">
@@ -53,10 +59,18 @@ const HomePages = () => {
           <Link to="#">
             <img src={ImgLink8} alt="" />
           </Link>
-          <Link to="#">
+          <Link to="/bir">
             <img src={ImgLink9} alt="" />
           </Link>
         </div>
+        <Modal1
+          visible={isVisible}
+          close={() => {
+            setCategory("");
+            setIsVisible(false);
+          }}
+        />
+
         <div className="home-inner-midl">
           <div className="home-inner-midl-top">
             <p>Новые объявления</p>
@@ -80,9 +94,15 @@ const HomePages = () => {
 
       <div className="home-last container">
         <div className="home-last-top">
-          <Link className="home-last-top-link" to="#">Просмотренные</Link>
-          <Link className="home-last-top-link" to="#">Выбор редакции</Link>
-          <Link className="home-last-top-link" to="#">Сниженные цены</Link>
+          <Link className="home-last-top-link" to="#">
+            Просмотренные
+          </Link>
+          <Link className="home-last-top-link" to="#">
+            Выбор редакции
+          </Link>
+          <Link className="home-last-top-link" to="#">
+            Сниженные цены
+          </Link>
         </div>
         <div className="home-last-midl">
           <LastComponent />
@@ -91,7 +111,6 @@ const HomePages = () => {
           <h5>Покозать еще</h5>
         </div>
       </div>
-      
     </div>
   );
 };
