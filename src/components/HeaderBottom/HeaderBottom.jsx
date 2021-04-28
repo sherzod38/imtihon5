@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom'
+
+
 import "./HeaderBottom.scss";
 
 const HeaderBottom = () => {
@@ -19,7 +22,7 @@ const HeaderBottom = () => {
           <option value="">Tashkent</option>
           <option value="">Samarqand</option>
         </select>
-        <button className="bottom-btn1">Найти</button>
+        <button className="bottom-btn1"><Link  className="bottom-btn1-link" to='/tort'>Найти</Link></button>
         <button className="bottom-btn2">
           <span>+</span> Добавить обьявления
         </button>

@@ -65,9 +65,11 @@
       line-height: 17px;
       outline: none;
       cursor: pointer;
-      color: #ffffff;
       position: relative;
-    
+      &-link {
+        
+        color: #ffffff;
+      }
       &::before {
         position: absolute;
         content: '';
