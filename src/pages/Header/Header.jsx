@@ -16,7 +16,7 @@ const Header = () => {
             <p>Продай, найди, купи все что пожелаешь…</p>
           </div>
           <div className="header-top-midl">
-            <Link to="#">Объявления</Link>
+            <Link to="/bir">Объявления</Link>
             <Link to="#">Магазины</Link>
             <Link to="#">Для бизнеса</Link>
             <Link to="#">Помощь</Link>

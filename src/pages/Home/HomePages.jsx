@@ -59,7 +59,7 @@ const HomePages = () => {
           <Link to="#">
             <img src={ImgLink8} alt="" />
           </Link>
-          <Link to="/bir">
+          <Link to="#">
             <img src={ImgLink9} alt="" />
           </Link>
         </div>
