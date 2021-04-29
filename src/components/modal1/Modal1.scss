@@ -29,15 +29,16 @@
   &-inner {
     padding: 0 50px;
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-between;
     flex-direction: column;
 
     &-link {
+      // width: 230px;
       font-family: Gilroy;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 39px;
+      font-size: 14px;
+      line-height: 35px;
       letter-spacing: -6.7332e-5px;
       color: #000000;
       position: relative;

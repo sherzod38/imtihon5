@@ -1,4 +1,138 @@
 .section2 {
-    border: 1px solid #dedede;
-    margin-bottom: 22px;
+  margin-bottom: 22px;
+  &-inner {
+    margin-top: 20px;
+    border-bottom: 1px solid #dedede;
+  }
+  &-block {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  &-ttt {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-family: Gilroy;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4e72ca;
+    cursor: pointer;
+  }
+  &-h4 {
+    display: flex;
+    align-items: center;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #414d6a;
+    padding-bottom: 10px;
+    cursor: pointer;
+    & img {
+      margin-right: 10px;
+    }
+  }
+  &-text {
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    & P {
+      padding: 15px 0;
+      display: flex;
+      flex-direction: column;
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4e72ca;
+      margin-right: 20px;
+      width: 200px;
+      & span {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #4a4a4a;
+        & img {
+          width: 10px;
+          height: 10px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  &-last {
+    margin-top: 38px;
+    &-block {
+      &-title {
+        margin-bottom: 18px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #41d481;
+      }
+      &-imgs {
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          &::after {
+              position: absolute;
+              content: '';
+              background-image: url('../../assets/images/blueArrey.svg');
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 44px;
+              height: 44px;
+              right: -25px;
+              top: 160px;
+          }
+        &-img {
+            padding: 20px 20px 35px 20px;
+            border: 1px solid #dedede;
+          & img {
+              width: 300px;
+              height: 218px;
+              margin-bottom: 12px;
+          }
+          & p {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;            
+            color: #000000;
+            margin-bottom: 20px;
+          }
+          & span {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            margin-bottom: 5px;
+            color: #4A4A4A;
+          }
+          & h4 {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
 }
