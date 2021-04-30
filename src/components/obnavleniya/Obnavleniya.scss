@@ -1,0 +1,186 @@
+.obnav {
+    position: relative;
+  & h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+  }
+
+  & h3 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+  }
+
+  &-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url("../../assets/images/icons/Group15.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 44px;
+      height: 44px;
+      left: -40px;
+      top: 15px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      background-image: url("../../assets/images/icons/Group15.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 44px;
+      height: 44px;
+      right: -45px;
+      top: 15px;
+      transform: rotate(180deg);
+    }
+  }
+  &-madal {
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    width: 941px;
+    height: 469px;
+    left: 140px;
+    top: 34px;
+    background: #ffffff;
+    box-shadow: 12px 12px 64px rgba(0, 0, 0, 0.0633775);
+    display: none;
+    &.opened {
+      display: flex;
+    }
+    &-row1 {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      &::after {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: 340px;
+          background-color: #dedede;
+          right: 0;
+          top: 100px;
+      }
+    //   border-right: 1px solid #dedede;
+
+      & h4 {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;        
+        color: #000000;
+        padding: 34px 20px;
+      }
+      &-link {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #000000;
+        width: 230px;
+        padding-left: 30px;
+        & img {
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            color: #41D481;
+        }
+      }
+    }
+    &-row2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        display: none;
+        &.opened {
+          display: flex;
+        }
+      &::after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 340px;
+        background-color: #dedede;
+        right: 0;
+        top: 100px;
+    }
+      & h4 {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;        
+        color: #000000;
+        padding: 34px 20px;
+      }
+      &-link {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #000000;
+        width: 230px;
+        padding-left: 30px;
+        & img {
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            color: #41D481;
+        }
+      }
+    }
+    &-row3 {
+      display: flex;
+      flex-direction: column;
+      display: none;
+      &.opened {
+        display: flex;
+      }
+      & h4 {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;        
+        color: #000000;
+        padding: 34px 20px;
+      }
+      &-link {
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #000000;
+        width: 230px;
+        padding-left: 30px;
+        & img {
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            color: #41D481;
+        }
+      }
+    }
+  }
+}

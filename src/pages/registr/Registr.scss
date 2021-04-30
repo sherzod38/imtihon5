@@ -1,0 +1,22 @@
+.registr {
+    &-inner {
+        display: flex;
+        &-left {
+            width: 50%;
+            position: relative;
+            
+        }
+        &-right {
+            position: relative;
+            width: 50%;
+            &-img1 {
+                margin: 0;
+            }
+            &-img2 {
+                position: absolute;
+                bottom: 180px;
+                left: 60px;
+            }
+        }
+    }
+}

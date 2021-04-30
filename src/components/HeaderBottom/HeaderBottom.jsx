@@ -22,9 +22,9 @@ const HeaderBottom = () => {
           <option value="">Tashkent</option>
           <option value="">Samarqand</option>
         </select>
-        <button className="bottom-btn1"><Link  className="bottom-btn1-link" to='/tort'>Найти</Link></button>
+        <button className="bottom-btn1"><Link  className="bottom-btn1-link" to='/uch'>Найти</Link></button>
         <button className="bottom-btn2">
-          <span>+</span> Добавить обьявления
+          <span>+</span> <Link  className="bottom-btn2-f" to='/tort'>Добавить обьявления</Link>
         </button>
       </div>
       
